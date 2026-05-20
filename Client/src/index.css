@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "plusSans";
+  src: url("./assets/fonts/plusJakartaSans/PlusJakartaSans-Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("./assets/fonts/inter/Inter-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "beVietnam";
+  src: url("./assets/fonts/beVietnam/BeVietnamPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "productSans";
+  src: url("./assets/fonts/productSans/ProductSans-Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom CSS to hide the scrollbar */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.menu-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.menu-pagination .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background: #cbd5e1;
+  opacity: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.menu-pagination .swiper-pagination-bullet-active {
+  width: 48px;
+  height: 16px;
+  background: var(--event-navy, #ee1133);
+  border-radius: 63px;
+  transition: width 0.3s ease;
+}
