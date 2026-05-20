@@ -270,7 +270,7 @@ Módulo analítico empresarial.
 # 📂 Estructura del proyecto
 
 ```bash
-EventPro/
+PlataformaGestionEventosServicios/
 │
 ├── frontend/
 │   ├── components/
@@ -384,7 +384,7 @@ Usuario → Evento → Servicios → Reservación → Confirmación → Gestión
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/usuario/eventpro.git
+git clone https://github.com/isairey/PlataformaGestionEventosServicios.git
 ```
 
 ---
@@ -392,7 +392,7 @@ git clone https://github.com/usuario/eventpro.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd EventPro
+cd PlataformaGestionEventosServicios
 ```
 
 ---
@@ -534,7 +534,7 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Full Stack Developer
+## Isai Reyes - Full Stack Developer
 
 Desarrollador apasionado por plataformas empresariales, arquitectura moderna y sistemas de gestión de eventos 🚀
 
