@@ -440,27 +440,6 @@ http://localhost:3000
 
 ---
 
-# 📸 Vista previa
-
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 📊 Dashboard administrativo
-![Dashboard](https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200)
-
-### 📅 Gestión de eventos
-![Events](https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200)
-
-### 🏛️ Reservación de espacios
-![Venue](https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200)
-
-### 📸 Gestión de servicios
-![Services](https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200)
-
-</div>
-
----
 
 # 👥 Roles del sistema
 
